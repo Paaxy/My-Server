@@ -1,0 +1,13 @@
+listeners:
+  - port: 25565
+    host: 0.0.0.0
+    motd: '&eEaglercraft Server'
+    max-players: 100
+    proxy-protocol: false
+    force-default-server: true
+    tab-list: GLOBAL_PING
+    bind-local-address: true
+    ping-passthrough: true
+    priorities:
+      - lobby
+    allow-staff: true
